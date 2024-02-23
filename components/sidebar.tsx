@@ -1,8 +1,7 @@
 'use client';
 
 import { Home, Plus, Settings } from 'lucide-react';
-import { usePathname } from 'next/navigation';
-import { useRouter } from 'next/router';
+import { usePathname, useRouter } from 'next/navigation';
 
 import { ROUTES } from '@/const/routes';
 import { cn } from '@/lib/utils';
