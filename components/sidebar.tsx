@@ -32,6 +32,7 @@ export const Sidebar = () => {
   const pathname = usePathname();
 
   const onNavigate = (url: string, pro: boolean) => {
+    console.log(pro);
     return router.push(url);
   };
 
